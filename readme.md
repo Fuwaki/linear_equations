@@ -1,30 +1,24 @@
 # 一个解线性方程组的玩意
 
+
+
 输入未知数个数 再按提示输入增广矩阵即可
 
-如下对应$\begin{bmatrix}
-1 & 1 & 4\\
-1 & 4 & 1\\
-1 & 9 & 8\\
-\end{bmatrix}
-\begin{bmatrix}
-x_1\\
-x_2\\
-x_3
-\end{bmatrix}
-=\begin{bmatrix}
-5\\
-9\\
-1
-\end{bmatrix}\Rightarrow \begin{bmatrix}
-x_1\\
-x_2\\
-x_3
-\end{bmatrix}=\begin{bmatrix}
-9.778\\
-0.111\\
--1.222
-\end{bmatrix}$
+如下对应
+
+$$
+\begin{array}{rcrcrcl}
+x_1 & + & x_2 & + & 4x_3 & = & 5 \\
+x_1 & + & 4x_2 & + & x_3 & = & 9 \\
+x_1 & + & 9x_2 & + & 8x_3 & = & 1
+\end{array}
+\quad \Rightarrow \quad
+\begin{array}{rcr}
+x_1 & = & 9.778 \\
+x_2 & = & 0.111 \\
+x_3 & = & -1.222
+\end{array}
+$$
 
 ![alt text](image.png)
 
