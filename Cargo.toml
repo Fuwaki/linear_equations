@@ -1,0 +1,11 @@
+[package]
+name = "gauss_elimination"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+facet = "0.27.14"
+facet-macros = "0.27.14"
+facet-pretty = "0.23.21"
+
+num-traits = "0.2.19"
